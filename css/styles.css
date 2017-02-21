@@ -3,10 +3,11 @@ body {
     width: 800px;
     margin: 0 auto;
     padding: 10px;
+	background-color: #2ca4ba;
 }
 
 .error {
-    color: red;
+    color: yellow;
 }
 
 label {
@@ -31,6 +32,8 @@ textarea {
 
 input[type=submit] {
     font-size: 24px;
+	background-color: black;
+	color: white;
 }
 
 hr {
@@ -44,6 +47,7 @@ hr {
 .post-title {
     font-weight: bold;
     font-size: 20px;
+	color: white;
 }
 
 .post-body {
@@ -53,7 +57,9 @@ hr {
 
 .post-author {
     font-style: italic;
-    font-size: 12px;
+	font-family: Comic Sans;
+    font-size: 14px;
+	color: #e0e0c3;
 }
 
 nav ul {
